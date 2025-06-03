@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "image_url": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "affiliate_link": {
+      "type": "string"
+    },
+    "category_name": {
+      "type": "string"
+    },
+    "tags": {
+      "displayName": "Tags",
+      "type": "component",
+      "repeatable": false,
+      "component": "tag-item.tags"
+    },
+    "is_published": {
+      "type": "boolean"
+    },
+    "price": {
+      "type": "string"
+    }
+  }
+}
