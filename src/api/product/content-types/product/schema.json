@@ -18,14 +18,15 @@
       "type": "blocks"
     },
     "image_url": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "affiliate_link": {
       "type": "string"
@@ -33,17 +34,11 @@
     "category_name": {
       "type": "string"
     },
-    "tags": {
-      "displayName": "Tags",
-      "type": "component",
-      "repeatable": false,
-      "component": "tag-item.tags"
-    },
-    "is_published": {
-      "type": "boolean"
-    },
     "price": {
       "type": "string"
+    },
+    "tags": {
+      "type": "text"
     }
   }
 }
