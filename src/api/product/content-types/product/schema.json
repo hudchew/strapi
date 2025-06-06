@@ -14,9 +14,6 @@
     "name": {
       "type": "string"
     },
-    "description": {
-      "type": "blocks"
-    },
     "affiliate_link": {
       "type": "string"
     },
@@ -31,6 +28,9 @@
     },
     "image_url": {
       "type": "string"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
