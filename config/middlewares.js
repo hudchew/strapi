@@ -9,6 +9,7 @@ module.exports = [
         'http://localhost:3300',
         'https://shopkeng.vercel.app',
         'https://shopkeng.com',
+        'https://www.shopkeng.com',
         'http://localhost:5678', // n8n
       ],
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
