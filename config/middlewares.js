@@ -6,7 +6,7 @@ module.exports = [
     config: {
       enabled: true,
       origin: [
-        'http://localhost:3000',
+        'http://localhost:3300',
         'https://shopkeng.vercel.app',
         'https://shopkeng.com',
         'http://localhost:5678', // n8n
