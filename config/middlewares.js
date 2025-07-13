@@ -6,11 +6,14 @@ module.exports = [
     config: {
       enabled: true,
       origin: [
+        'http://localhost:5678', // n8n
         'http://localhost:3300',
         'https://shopkeng.vercel.app',
         'https://shopkeng.com',
         'https://www.shopkeng.com',
-        'http://localhost:5678', // n8n
+        'https://hudchew-nextjs.vercel.app',
+        'https://hudchew.com',
+        'https://www.hudchew.com'
       ],
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
       headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
