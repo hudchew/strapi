@@ -52,6 +52,9 @@
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "post"
+    },
+    "cover_image_url": {
+      "type": "string"
     }
   }
 }
