@@ -2007,6 +2007,37 @@
     lodash "4.17.21"
     react-remove-scroll "2.5.10"
 
+"@strapi/design-system@2.0.0-rc.29":
+  version "2.0.0-rc.29"
+  resolved "https://registry.yarnpkg.com/@strapi/design-system/-/design-system-2.0.0-rc.29.tgz#17669645e678f16fdb6334e9bd5c4ef6637a162e"
+  integrity sha512-Up8wGVdo1mvTK/F/u7qEgHn298rRaitBI+hn0RgtU90CynLO+Lo+b2mo7aGY+ZRk6hYp7xkXBW9fgS+DrnDNZA==
+  dependencies:
+    "@codemirror/lang-json" "6.0.1"
+    "@floating-ui/react-dom" "2.1.0"
+    "@internationalized/date" "3.5.4"
+    "@internationalized/number" "3.5.3"
+    "@radix-ui/react-accordion" "1.1.2"
+    "@radix-ui/react-alert-dialog" "1.0.5"
+    "@radix-ui/react-avatar" "1.0.4"
+    "@radix-ui/react-checkbox" "1.0.4"
+    "@radix-ui/react-dialog" "1.0.5"
+    "@radix-ui/react-dismissable-layer" "1.0.5"
+    "@radix-ui/react-dropdown-menu" "2.0.6"
+    "@radix-ui/react-focus-guards" "1.0.1"
+    "@radix-ui/react-focus-scope" "1.0.4"
+    "@radix-ui/react-popover" "1.0.7"
+    "@radix-ui/react-progress" "1.0.3"
+    "@radix-ui/react-radio-group" "1.1.3"
+    "@radix-ui/react-scroll-area" "1.0.5"
+    "@radix-ui/react-switch" "1.0.3"
+    "@radix-ui/react-tabs" "1.0.4"
+    "@radix-ui/react-tooltip" "1.0.7"
+    "@radix-ui/react-use-callback-ref" "1.0.1"
+    "@strapi/ui-primitives" "2.0.0-rc.29"
+    "@uiw/react-codemirror" "4.22.2"
+    lodash "4.17.21"
+    react-remove-scroll "2.5.10"
+
 "@strapi/email@5.11.0":
   version "5.11.0"
   resolved "https://registry.yarnpkg.com/@strapi/email/-/email-5.11.0.tgz#c1b2d83862f8e10a158fbbcc1a33a642079fdcbb"
@@ -2057,6 +2088,11 @@
   resolved "https://registry.yarnpkg.com/@strapi/icons/-/icons-2.0.0-rc.18.tgz#32649132d7a6e46abe6f0f49d4ac44a1c9b672ac"
   integrity sha512-OPMoSeZzTBqU35OOK9fA8iiKhKk8TIaDIzI0+r7mgoD9bP35GaZ+AAZQpFOfQjwguJeKYkFagAoYiWYwAgxkPg==
 
+"@strapi/icons@2.0.0-rc.29":
+  version "2.0.0-rc.29"
+  resolved "https://registry.yarnpkg.com/@strapi/icons/-/icons-2.0.0-rc.29.tgz#393d7dab864609198893f26f0b2ef39e0387ede6"
+  integrity sha512-VFmvS41vYq6qgRShIMlZZPkr6DteINYya67Ghxtd5b+agWziKSpV6W1yMyFLJwSEXEyPxhvaVHw/xG4BUfpYNg==
+
 "@strapi/logger@5.11.0":
   version "5.11.0"
   resolved "https://registry.yarnpkg.com/@strapi/logger/-/logger-5.11.0.tgz#9fb6b9ea74a076d56ec96ee80d47e736209dcf44"
@@ -2076,21 +2112,21 @@
     qs "6.11.1"
     sift "16.0.1"
 
-"@strapi/plugin-users-permissions@5.11.0":
-  version "5.11.0"
-  resolved "https://registry.yarnpkg.com/@strapi/plugin-users-permissions/-/plugin-users-permissions-5.11.0.tgz#a60a57efa708d3f7c0c0c7240f3d8126d35d378d"
-  integrity sha512-S0K8DIPc8YAHTAZZE9KVw1Ag07rIQHMazNvCUVbdyEabmvckFy+J0rPMDgzjT5R9iN8Pz/AffJ0KR6D+ngTqsg==
+"@strapi/plugin-users-permissions@5.18.1":
+  version "5.18.1"
+  resolved "https://registry.yarnpkg.com/@strapi/plugin-users-permissions/-/plugin-users-permissions-5.18.1.tgz#cbe2a253abd6ffb6ac2df7a72e67377dc99f434c"
+  integrity sha512-rJ0PMszKPtbZgEuG8r/LGL4svX5veky30dKj5V7bz9mJASuyA40ztVsgSXLcO3gC4dajfow7JPqpa4d/FG/YNg==
   dependencies:
-    "@strapi/design-system" "2.0.0-rc.18"
-    "@strapi/icons" "2.0.0-rc.18"
-    "@strapi/utils" "5.11.0"
+    "@strapi/design-system" "2.0.0-rc.29"
+    "@strapi/icons" "2.0.0-rc.29"
+    "@strapi/utils" "5.18.1"
     bcryptjs "2.4.3"
     formik "2.4.5"
     grant "^5.4.8"
     immer "9.0.21"
     jsonwebtoken "9.0.0"
     jwk-to-pem "2.0.5"
-    koa "2.15.4"
+    koa "2.16.1"
     koa2-ratelimit "^1.1.3"
     lodash "4.17.21"
     prop-types "^15.8.1"
@@ -2262,6 +2298,32 @@
     aria-hidden "1.2.4"
     react-remove-scroll "2.5.10"
 
+"@strapi/ui-primitives@2.0.0-rc.29":
+  version "2.0.0-rc.29"
+  resolved "https://registry.yarnpkg.com/@strapi/ui-primitives/-/ui-primitives-2.0.0-rc.29.tgz#8e78d43908968c73cd90f6996a259f81dad63e4b"
+  integrity sha512-jLVuK0BMEG11INhdNgEuzvRQovxSEgcJ0BKCmOf4i5V2nygtliaBmhqy1bsu4sz+D/pEP4ZZLjjHzEnqr0XYoQ==
+  dependencies:
+    "@radix-ui/number" "1.0.1"
+    "@radix-ui/primitive" "1.0.1"
+    "@radix-ui/react-collection" "1.0.3"
+    "@radix-ui/react-compose-refs" "1.0.1"
+    "@radix-ui/react-context" "1.0.1"
+    "@radix-ui/react-direction" "1.0.1"
+    "@radix-ui/react-dismissable-layer" "1.0.5"
+    "@radix-ui/react-focus-guards" "1.0.1"
+    "@radix-ui/react-focus-scope" "1.0.4"
+    "@radix-ui/react-id" "1.0.1"
+    "@radix-ui/react-popper" "1.1.3"
+    "@radix-ui/react-portal" "1.0.4"
+    "@radix-ui/react-primitive" "1.0.3"
+    "@radix-ui/react-slot" "1.0.2"
+    "@radix-ui/react-use-controllable-state" "1.0.1"
+    "@radix-ui/react-use-layout-effect" "1.0.1"
+    "@radix-ui/react-use-previous" "1.0.1"
+    "@radix-ui/react-visually-hidden" "1.0.3"
+    aria-hidden "1.2.4"
+    react-remove-scroll "2.5.10"
+
 "@strapi/upload@5.11.0":
   version "5.11.0"
   resolved "https://registry.yarnpkg.com/@strapi/upload/-/upload-5.11.0.tgz#8636822d9ac945e0cb0f56a7126e3578a188a594"
@@ -2307,6 +2369,22 @@
     preferred-pm "3.1.2"
     yup "0.32.9"
     zod "^3.22.4"
+
+"@strapi/utils@5.18.1":
+  version "5.18.1"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-5.18.1.tgz#098ab55c34d7deecdaef461ea4977f58afdbc060"
+  integrity sha512-ZzPpanQf3cfspJzTAJGzJFDgF0hbXsSVlgh6hmgLJuby5UWKNFUWfYusUo9xsTeA6O3VGK5ZQ4hjbSmLVDu29Q==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "2.30.0"
+    execa "5.1.1"
+    http-errors "2.0.0"
+    lodash "4.17.21"
+    node-machine-id "1.1.12"
+    p-map "4.0.0"
+    preferred-pm "3.1.2"
+    yup "0.32.9"
+    zod "3.24.2"
 
 "@swc/core-darwin-arm64@1.11.8":
   version "1.11.8"
@@ -6510,6 +6588,35 @@ koa@2.15.4:
     type-is "^1.6.16"
     vary "^1.1.2"
 
+koa@2.16.1:
+  version "2.16.1"
+  resolved "https://registry.yarnpkg.com/koa/-/koa-2.16.1.tgz#ba1aae04d8319d7dac4a17a0d289d7482501e194"
+  integrity sha512-umfX9d3iuSxTQP4pnzLOz0HKnPg0FaUUIKcye2lOiz3KPu1Y3M3xlz76dISdFPQs37P9eJz1wUpcTS6KDPn9fA==
+  dependencies:
+    accepts "^1.3.5"
+    cache-content-type "^1.0.0"
+    content-disposition "~0.5.2"
+    content-type "^1.0.4"
+    cookies "~0.9.0"
+    debug "^4.3.2"
+    delegates "^1.0.0"
+    depd "^2.0.0"
+    destroy "^1.0.4"
+    encodeurl "^1.0.2"
+    escape-html "^1.0.3"
+    fresh "~0.5.2"
+    http-assert "^1.3.0"
+    http-errors "^1.6.3"
+    is-generator-function "^1.0.7"
+    koa-compose "^4.1.0"
+    koa-convert "^2.0.0"
+    on-finished "^2.3.0"
+    only "~0.0.2"
+    parseurl "^1.3.2"
+    statuses "^1.5.0"
+    type-is "^1.6.16"
+    vary "^1.1.2"
+
 kuler@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/kuler/-/kuler-2.0.0.tgz#e2c570a3800388fb44407e851531c1d670b061b3"
@@ -10153,7 +10260,7 @@ yup@0.32.9:
     property-expr "^2.0.4"
     toposort "^2.0.2"
 
-zod@^3.19.1, zod@^3.22.4:
+zod@3.24.2, zod@^3.19.1, zod@^3.22.4:
   version "3.24.2"
   resolved "https://registry.yarnpkg.com/zod/-/zod-3.24.2.tgz#8efa74126287c675e92f46871cfc8d15c34372b3"
   integrity sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==
