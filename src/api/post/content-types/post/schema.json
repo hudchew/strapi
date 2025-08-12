@@ -25,36 +25,19 @@
     "excerpt": {
       "type": "text"
     },
-    "cover_image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "category": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::category.category"
     },
-    "tags": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::tag.tag",
-      "mappedBy": "post"
-    },
-    "auther": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "plugin::users-permissions.user",
-      "inversedBy": "post"
-    },
     "cover_image_url": {
       "type": "string"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "mappedBy": "posts"
     }
   }
 }

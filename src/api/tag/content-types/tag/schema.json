@@ -19,9 +19,9 @@
       "type": "uid",
       "targetField": "name"
     },
-    "post": {
+    "posts": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::post.post",
       "inversedBy": "tags"
     }
